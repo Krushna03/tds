@@ -2,6 +2,7 @@ import React from 'react'
 import { AnimatedSection } from './AnimatedSection'
 
 const TechStack = () => {
+
   const technologies = [
     {
       name: "React",
@@ -17,13 +18,13 @@ const TechStack = () => {
       icon: "▲",
       description: "Full-stack framework",
     },
-    {
-      name: "Vue.js",
-      category: "Frontend",
-      color: "from-green-400 to-green-600",
-      icon: "💚",
-      description: "Progressive framework",
-    },
+    // {
+    //   name: "Vue.js",
+    //   category: "Frontend",
+    //   color: "from-green-400 to-green-600",
+    //   icon: "💚",
+    //   description: "Progressive framework",
+    // },
     {
       name: "Flutter",
       category: "Mobile",
@@ -101,21 +102,21 @@ const TechStack = () => {
       icon: "🐳",
       description: "Containerization",
     },
-    {
-      name: "Kubernetes",
-      category: "DevOps",
-      color: "from-blue-600 to-purple-600",
-      icon: "⚙️",
-      description: "Orchestration",
-    },
+    // {
+    //   name: "Kubernetes",
+    //   category: "DevOps",
+    //   color: "from-blue-600 to-purple-600",
+    //   icon: "⚙️",
+    //   description: "Orchestration",
+    // },
     { name: "Figma", category: "Design", color: "from-purple-500 to-pink-500", icon: "🎨", description: "Design tool" },
-    {
-      name: "Adobe XD",
-      category: "Design",
-      color: "from-pink-500 to-purple-600",
-      icon: "🎭",
-      description: "UX/UI design",
-    },
+    // {
+    //   name: "Adobe XD",
+    //   category: "Design",
+    //   color: "from-pink-500 to-purple-600",
+    //   icon: "🎭",
+    //   description: "UX/UI design",
+    // },
     {
       name: "TypeScript",
       category: "Language",
@@ -215,18 +216,18 @@ const TechStack = () => {
 
                     <div className="flex items-center justify-between">
                       <span>Mobile</span>
-                      <span className="font-bold">85%</span>
+                      <span className="font-bold">95%</span>
                     </div>
                     <div className="w-full bg-white/20 rounded-full h-2">
-                      <div className="bg-white h-2 rounded-full" style={{ width: "85%" }}></div>
+                      <div className="bg-white h-2 rounded-full" style={{ width: "95%" }}></div>
                     </div>
 
                     <div className="flex items-center justify-between">
                       <span>DevOps</span>
-                      <span className="font-bold">80%</span>
+                      <span className="font-bold">90%</span>
                     </div>
                     <div className="w-full bg-white/20 rounded-full h-2">
-                      <div className="bg-white h-2 rounded-full" style={{ width: "80%" }}></div>
+                      <div className="bg-white h-2 rounded-full" style={{ width: "90%" }}></div>
                     </div>
                   </div>
                 </div>

@@ -4,6 +4,7 @@ import { AnimatedSection } from "./AnimatedSection"
 
 
 const Services = () => {
+  
   const services = [
     {
       icon: <Code size={48} />,
@@ -112,7 +113,7 @@ const Services = () => {
                   </div>
 
                   {/* Call to action button */}
-                  <div className="mt-8">
+                  {/* <div className="mt-8">
                     <button
                       className={`group/btn bg-gradient-to-r ${service.gradient} text-white px-6 py-3 rounded-xl font-semibold opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 hover:shadow-lg hover:scale-105 flex items-center`}
                     >
@@ -122,7 +123,7 @@ const Services = () => {
                         size={16}
                       />
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </AnimatedSection>

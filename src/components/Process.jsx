@@ -2,6 +2,7 @@ import React from 'react'
 import { AnimatedSection } from './AnimatedSection';
 
 const Process = () => {
+  
   const steps = [
     {
       number: "01",
