@@ -1,5 +1,4 @@
-import React from "react"
-import { Code, Smartphone, Palette, TrendingUp, ArrowRight } from "lucide-react"
+import { Code, Smartphone, Palette, TrendingUp } from "lucide-react"
 import { AnimatedSection } from "./AnimatedSection"
 
 

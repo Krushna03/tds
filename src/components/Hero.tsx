@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "./ui/button";
 import { AnimatedSection } from "./AnimatedSection";
 
@@ -80,12 +79,12 @@ const HeroSection = () => {
 };
 
 // Floating Icon Component
-const FloatingIcon = ({ top, left, right, bg, image, rotate = "", rounded = "rounded-xl" }) => (  
-  <div
-    className={`absolute ${top} ${left || right} w-10 h-10 sm:w-11 sm:h-11 ${bg} ${rounded} flex items-center justify-center transform ${rotate} transition-transform duration-300 hover:scale-125`}
-  >
-    <img src={image} alt="tech-icon" className="w-full h-full object-contain" />
-  </div>
-);
+// const FloatingIcon = ({ top, left, right, bg, image, rotate = "", rounded = "rounded-xl" }) => (  
+//   <div
+//     className={`absolute ${top} ${left || right} w-10 h-10 sm:w-11 sm:h-11 ${bg} ${rounded} flex items-center justify-center transform ${rotate} transition-transform duration-300 hover:scale-125`}
+//   >
+//     <img src={image} alt="tech-icon" className="w-full h-full object-contain" />
+//   </div>
+// );
 
 export default HeroSection;

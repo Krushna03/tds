@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AnimatedSection } from './AnimatedSection'
-import { ChevronLeft, ChevronRight, Star } from 'lucide-react'
+import { Star } from 'lucide-react'
 
 const Testimonial = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0)

@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState, RefObject } from "react"
 
-const useIntersectionObserver = (options = {}) => {
+const useIntersectionObserver = (options: IntersectionObserverInit = {}): [RefObject<HTMLDivElement>, boolean] => {
   const [isIntersecting, setIsIntersecting] = useState(false)
-  const ref = useRef(null)
+  const ref = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
@@ -23,7 +23,15 @@ const useIntersectionObserver = (options = {}) => {
   return [ref, isIntersecting]
 }
 
-export const AnimatedSection = ({ children, className = "", delay = 0 }) => {
+export const AnimatedSection = ({
+  children,
+  className = "",
+  delay = 0,
+}: {
+  children: React.ReactNode
+  className?: string
+  delay?: number
+}) => {
   const [ref, isIntersecting] = useIntersectionObserver({
     threshold: 0.1,
     rootMargin: "50px",

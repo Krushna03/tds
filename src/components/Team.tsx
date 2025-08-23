@@ -1,4 +1,3 @@
-import React from 'react'
 import { AnimatedSection } from './AnimatedSection'
 import { Github, Linkedin, Twitter } from 'lucide-react'
 

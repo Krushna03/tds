@@ -1,5 +1,5 @@
 import { Github, Linkedin, Mail, MapPin, Phone, Twitter } from 'lucide-react'
-import React, { useState} from 'react'
+import  { useState} from 'react'
 import { AnimatedSection } from './AnimatedSection'
 
 const Contact = () => {
@@ -10,13 +10,13 @@ const Contact = () => {
     message: "",
   })
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault()
     // Handle form submission
     console.log("Form submitted:", formData)
   }
 
-  const handleChange = (e) => {
+  const handleChange = (e : any) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,

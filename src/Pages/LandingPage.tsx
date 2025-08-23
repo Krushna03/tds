@@ -1,5 +1,4 @@
-import React from 'react'
-import HeroSection from '../components/hero,'
+import HeroSection from '../components/Hero'
 import Header from '../components/Header'
 import Services from '../components/Services'
 import Process from '../components/Process'

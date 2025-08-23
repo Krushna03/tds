@@ -1,4 +1,3 @@
-import React from 'react'
 import { AnimatedSection } from './AnimatedSection'
 import { ArrowRight, Github } from 'lucide-react'
 
