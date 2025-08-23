@@ -58,8 +58,9 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <AnimatedSection>
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Our Projects</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-3 font-roboto">Our Projects</h2>
+            <div className="h-1 bg-blue-700 dark:bg-white w-24 mx-auto mb-3 rounded-full"></div>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
               Explore our portfolio of successful projects that showcase our expertise and creativity.
             </p>
           </div>
@@ -146,13 +147,13 @@ const Projects = () => {
 
         {/* Bottom CTA */}
         <AnimatedSection delay={400}>
-          <div className="text-center mt-16">
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 rounded-2xl text-white">
-              <h3 className="text-2xl font-bold mb-4">Ready to start your project?</h3>
-              <p className="mb-6 opacity-90">
+          <div className="text-center mt-20">
+            <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-20 rounded-2xl text-white">
+              <h3 className="text-5xl font-roboto font-bold mb-3">Ready to start your project?</h3>
+              <p className="text-lg mb-6 opacity-90">
                 Let's create something amazing together. Contact us to discuss your ideas.
               </p>
-              <button className="bg-white text-blue-600 px-8 py-3 rounded-xl font-semibold hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105">
+              <button className="bg-gray-50 text-blue-600 px-8 py-3 rounded-2xl font-bold hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105">
                 Start Your Project
               </button>
             </div>

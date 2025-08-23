@@ -54,12 +54,16 @@ const Services = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <AnimatedSection>
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Our Services</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <div className="text-center mb-16 relative">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-2 font-roboto">
+              Our Services
+            </h2>
+            <div className="h-1 bg-blue-700 dark:bg-white w-24 mx-auto mb-3 rounded-full"></div>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-xl mx-auto font-roboto">
               We offer comprehensive digital solutions to help your business thrive in the digital landscape.
             </p>
           </div>
+
         </AnimatedSection>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

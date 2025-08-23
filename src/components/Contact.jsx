@@ -28,18 +28,18 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection>
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 font-roboto">
               Let's Start Your Project
             </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Ready to transform your ideas into reality? Get in touch with us today.
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto font-roboto">
+              Ready to transform your ideas into reality? <br /> Get in touch with us today.
             </p>
           </div>
         </AnimatedSection>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <AnimatedSection>
-            <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-lg">
+            <div className="bg-white dark:bg-gray-900 p-8 rounded-xl shadow-md">
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Send us a message</h3>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
@@ -85,7 +85,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white transition-all duration-200"
+                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-white transition-all duration-200 resize-none"
                     placeholder="Tell us about your project..."
                   />
                 </div>
@@ -110,7 +110,7 @@ const Contact = () => {
 
               <div className="space-y-6">
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-gray-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4">
                     <Mail className="text-blue-600 dark:text-blue-400" size={24} />
                   </div>
                   <div>
@@ -120,7 +120,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-gray-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4">
                     <Phone className="text-blue-600 dark:text-blue-400" size={24} />
                   </div>
                   <div>
@@ -130,7 +130,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-gray-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4">
                     <MapPin className="text-blue-600 dark:text-blue-400" size={24} />
                   </div>
                   <div>
@@ -145,19 +145,19 @@ const Contact = () => {
                 <div className="flex space-x-4">
                   <a
                     href="#"
-                    className="w-10 h-10 bg-blue-600 hover:bg-blue-700 text-white rounded-lg flex items-center justify-center transition-colors duration-200"
+                    className="w-10 h-10 text-black bg-gray-100 hover:bg-gray-300 rounded-lg flex items-center justify-center transition-colors duration-200"
                   >
                     <Twitter size={20} />
                   </a>
                   <a
                     href="#"
-                    className="w-10 h-10 bg-blue-600 hover:bg-blue-700 text-white rounded-lg flex items-center justify-center transition-colors duration-200"
+                    className="w-10 h-10 text-black bg-gray-100 hover:bg-gray-300 rounded-lg flex items-center justify-center transition-colors duration-200"
                   >
                     <Linkedin size={20} />
                   </a>
                   <a
                     href="#"
-                    className="w-10 h-10 bg-blue-600 hover:bg-blue-700 text-white rounded-lg flex items-center justify-center transition-colors duration-200"
+                    className="w-10 h-10 text-black bg-gray-100 hover:bg-gray-300 rounded-lg flex items-center justify-center transition-colors duration-200"
                   >
                     <Github size={20} />
                   </a>

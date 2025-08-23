@@ -13,7 +13,7 @@ const TechStack = () => {
     },
     {
       name: "Next.js",
-      category: "Frontend",
+      category: "Full Stack",
       color: "from-gray-700 to-black",
       icon: "▲",
       description: "Full-stack framework",
@@ -137,8 +137,9 @@ const TechStack = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <AnimatedSection>
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Tech Stack</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-2 font-roboto">Tech Stack</h2>
+            <div className="h-1 bg-blue-700 dark:bg-white w-24 mx-auto mb-3 rounded-full"></div>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-xl mx-auto">
               We use cutting-edge technologies to build robust, scalable, and future-proof solutions.
             </p>
           </div>

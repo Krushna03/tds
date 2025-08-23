@@ -3,6 +3,7 @@ import { AnimatedSection } from './AnimatedSection'
 import { Github, Linkedin, Twitter } from 'lucide-react'
 
 const Team = () => {
+
   const teamMembers = [
     {
       name: "Alex Johnson",
@@ -94,8 +95,8 @@ const Team = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <AnimatedSection>
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">Meet Our Team</h2>
-            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 font-roboto">Meet Our Team</h2>
+            <p className="text-xl text-gray-600 dark:text-gray-300 max-w-xl mx-auto font-roboto">
               Our talented team of developers, designers, and strategists who bring your ideas to life.
             </p>
           </div>
