@@ -33,20 +33,20 @@ const HeroSection = () => {
 
 
           {/* Subtext */}
-          <p className="text-roboto text-gray-600 text-base sm:text-lg max-w-2xl mx-auto animate-slide-up font-medium pt-7" style={{ animationDelay: "0.4s" }}>
-            We are a web and mobile design & development agency. We build websites & apps, create brand identities, and help startups launch successfully.
+          <p className="text-roboto text-gray-600 text-base sm:text-lg max-w-3xl mx-auto animate-slide-up font-medium pt-5" style={{ animationDelay: "0.4s" }}>
+            We are a web and mobile design & development agency that builds more than just websites and apps. We build trust. By crafting powerful digital experience and brand identities, we help startups grow, while making our customers our true brand ambassadors.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-7">
-            <Button className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-5 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl focus:ring-2 focus:ring-blue-400 font-roboto">
-              Start a Project
+            <Button className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-6 rounded-full text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl focus:ring-2 focus:ring-blue-400 font-roboto">
+              Start Your Project
             </Button>
             <Button
               variant="outline"
-              className="border font-roboto border-gray-300 text-gray-700 px-7 py-5 rounded-full text-lg font-medium bg-white hover:bg-gray-50 transition-all duration-300 hover:scale-105 hover:shadow-md focus:ring-2 focus:ring-gray-300"
+              className="border font-roboto border-gray-300 text-gray-700 px-7 py-6 rounded-full text-lg font-medium bg-white hover:bg-gray-50 transition-all duration-300 hover:scale-105 hover:shadow-md focus:ring-2 focus:ring-gray-300"
             >
-              See Our Products
+              Explore Solutions
             </Button>
           </div>
         </div>
