@@ -17,7 +17,7 @@ const HeroSection = () => {
 
       {/* Hero Content */}
       <AnimatedSection>
-        <div className="relative z-10 max-w-5xl w-full text-center pt-20 sm:pt-[150px]">
+        <div className="relative z-10 max-w-5xl w-full text-center pt-36 sm:pt-[150px]">
           {/* Badge */}
           <p className="inline-block bg-gradient-to-r from-blue-500/10 to-blue-600/10 text-gray-700 px-5 py-2 rounded-full text-sm sm:text-[15px] font-semibold tracking-wide shadow-sm animate-slide-up">
             Digital Product Development Company
